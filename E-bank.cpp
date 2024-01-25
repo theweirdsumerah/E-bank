@@ -138,8 +138,7 @@ int main(){
         int methodSelect;
         cin>>methodSelect;
         cout<<endl;
-        int methodNo;
-        if(methodNo==1){
+        if(methodSelect==1){
             cout<<"Enter Agent number: ";
             int agentNo;
             cin>>agentNo;
@@ -153,7 +152,7 @@ int main(){
             cout<<"Cash Out "<<amount<< "BDT to "<<agentNo<<" successful. Congratulations!"<<endl;
             cout<<endl;
         }
-        else if (methodNo==2){
+        else if (methodSelect==2){
             cout<<"Enter ATM number: ";
             int atmNo;
             cin>>atmNo;
@@ -167,7 +166,7 @@ int main(){
             cout<<"Cash Out "<<amount<< "BDT to "<<atmNo<<" successful. Congratulations!"<<endl;
             cout<<endl;
         }
-        else if(methodNo==3){
+        else if(methodSelect==3){
             cout<<"Enter Priyo Agent number: ";
             int agentNo;
             cin>>agentNo;
@@ -181,7 +180,7 @@ int main(){
             cout<<"Cash Out "<<amount<< "BDT to "<<agentNo<<" successful. Congratulations!"<<endl;
             cout<<endl;
         }
-        else if (methodNo==4){
+        else if (methodSelect==4){
         cout<<" Set Priyo Agent number "<<endl;
         cout<<"Enter Priyo Agent Number: ";
         int pAgentNo;
@@ -192,7 +191,7 @@ int main(){
         cout<<"Priyo agent number "<<pAgentNo<<" to your account was Successful. Cash Out from Priyo Agent at 1.50%. "<<endl;
         cout<<endl;
         }
-        else if(methodNo==0){
+        else if(methodSelect==0){
             cout<<endl;
         }
     }
